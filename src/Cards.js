@@ -1,27 +1,29 @@
 import React from 'react'
 import Card from './Card';
 
-function Cards() {
+
+const Cards =(props)=>{
+    const cards = props.cards;
     return (
-        <div className="container px-0">
+        <div id= "#cards" className="container px-0">
             <div className="row">
                 <div className="col-md-3">
-                    <Card></Card>
+                    <Card cards={cards}></Card>
                 </div>
                 <div className="col-md-3">
-                    <Card></Card>
+                    <Card cards={cards}></Card>
                 </div>
                 <div className="col-md-3">
-                    <Card></Card>
+                    <Card cards={cards}></Card>
                 </div>
                 <div className="col-md-3">
-                    <Card></Card>
+                    <Card cards={cards}></Card>
                 </div>
 
             </div>
         </div>
         
     )
-}
+};
 
 export default Cards

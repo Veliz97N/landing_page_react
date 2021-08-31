@@ -31,8 +31,20 @@ body {
   margin-left: 10px;
   text-decoration: none;
   padding: 5px;
+  color: grey;
+  transition:.2s ease;
+}
+.navbar_ .link a:hover{
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 5px;
+  transform:scale(1.1);
   color: white;
 }
+.navbar_ .link a:first-child{
+  color:white;
+}
+
 /**JUMBOTRON*/
 
 
@@ -97,4 +109,23 @@ body {
   transform: scale(1.05);
   cursor:pointer;
   border:2px solid black;
+}
+.card{
+  border:none;
+  transition:.3s ease;
+}
+.card:hover{
+  transform:scale(1.05);
+  border: blue solid 3px;
+}
+
+.footer{
+  margin-top: 30px;
+  width: 100%;
+  padding: 30px;
+  background-color: #33353e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
 }
