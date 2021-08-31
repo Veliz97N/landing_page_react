@@ -17,10 +17,11 @@ body {
 }
 .navbar_ .interno{
   display: flex;
-  width: 80%;
+  width: 85%;
 }
-.navbar_ h1{
+.navbar_ .interno h1{  
   color:white;
+  font-size: 23px;
 }
 .navbar_ .link{
   display: flex;
@@ -115,7 +116,7 @@ body {
   transition:.3s ease;
 }
 .card:hover{
-  transform:scale(1.05);
+  transform:scale(1.03);
   border: blue solid 3px;
 }
 
@@ -128,4 +129,8 @@ body {
   justify-content: center;
   align-items: center;
   color:white;
+}
+.footer_span{
+  margin-left: 3px;
+  margin-right: 3px;
 }

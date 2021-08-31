@@ -4,7 +4,9 @@ const Footer = () => {
 
     return (
         <div className="footer">
-            Copyright <AiOutlineCopyright/>  Your Website 2019
+            <span class="footer_span"> Copyright </span>
+             <AiOutlineCopyright/>
+             <span class="footer_span">Your Website 2019</span>  
         </div>
       );
 }
